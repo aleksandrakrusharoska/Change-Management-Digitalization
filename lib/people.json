@@ -1,0 +1,10 @@
+{
+  "_comment": "Map every name that appears in the notes (owners AND @mentions) to an EMAIL. The Jira accountId is looked up automatically at runtime from this email. Adding a person = one line here.",
+
+  "Aleksandra": {
+    "email": "aleksandrakrusaroska812@gmail.com"
+  },
+  "Darija": {
+    "email": "darija.krleska@example.com"
+  }
+}

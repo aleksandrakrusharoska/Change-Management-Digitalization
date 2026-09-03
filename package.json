@@ -1,0 +1,19 @@
+{
+  "name": "standup-to-jira",
+  "version": "1.0.0",
+  "description": "Turns production standup notes into Jira issues via AI — extraction, de-duplication, dynamic assignee, and real @mentions in comments.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "ai": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "@vercel/node": "^5.0.0",
+    "typescript": "^5.6.2"
+  }
+}
